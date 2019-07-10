@@ -26,5 +26,8 @@ MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 FontName=xos4 Terminus 10
-BackgroundDarkness=0,720000
+BackgroundDarkness=0.910000
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+MiscSearchDialogOpacity=100
+MiscShowUnsafePasteDialog=TRUE
 
