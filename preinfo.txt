@@ -1,0 +1,15 @@
+Issues we find out on current used calamares offline installer:
+
+* on manual partition: do not use swap with hibernate (it will result in not having a swap)
+  If you want that take swap without hibernate and configure it after install (howto needed)
+
+* on manual partition on EFI systems: on creating the fat32 EFI partition there is no flag esp anymore choose boot instead, 
+  Best practise will be to create partitions and flags with gparted before starting installer and choosing manual partition on installer to use this partitions.
+
+* LUKS encryption has several issues.. they are not solved upstream at calamares development jet.
+
+
+It is recommended to use gparted before starting the installer jet, you can create a partition sheme there and use it inside installer.
+
+A warning to all of you want to install dualboot with Windows:
+If you choose the same EFI/fat32 partition used by Windows DO NOT FORMAT IT! check that you do not choose to format this partition, as it will make Windows not booting anymore (erasing bootentry for Windows)
