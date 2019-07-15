@@ -1,4 +1,6 @@
-Issues we find out on current used calamares offline installer:
+A Installation on an empty device with no other OS installed and autmatic partition, or a simple manual one will work.
+
+Issues with the current calamares offlineinstaller: 
 
 * on manual partition: do not use swap with hibernate (it will result in not having a swap)
   If you want that take swap without hibernate and configure it after install (howto needed)
@@ -6,7 +8,9 @@ Issues we find out on current used calamares offline installer:
 * on manual partition on EFI systems: on creating the fat32 EFI partition there is no flag esp anymore choose boot instead, 
   Best practise will be to create partitions and flags with gparted before starting installer and choosing manual partition on installer to use this partitions.
 
-* LUKS encryption has several issues.. they are not solved upstream at calamares development jet.
+* LUKS encryption has several issues.. they are not solved upstream at calamares development jet!
+  We do not recomment to use encryption currently!! 
+  (May it will work in some ways, but also creating encrypted home will cause install to fail)
 
 
 It is recommended to use gparted before starting the installer jet, you can create a partition sheme there and use it inside installer.
