@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=Application
 Version=3.2.11
-Name=Install System
-GenericName=System Installer
+Name=Install EndeavourOS
+GenericName=EndeavourOS - System Installer
 Keywords=calamares;system;installer
 TryExec=calamares
 Exec=pkexec /usr/bin/calamares -d > /home/liveuser/install.log
-Comment=Calamares — System Installer
+Comment=EndeavourOS — System Installer
 Icon=/usr/share/endeavouros/EndeavourOS-icon-E.png
 Terminal=false
 StartupNotify=true
