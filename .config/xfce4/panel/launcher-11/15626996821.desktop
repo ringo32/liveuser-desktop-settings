@@ -1,20 +1,20 @@
 [Desktop Entry]
 Type=Application
-Version=1.0
+Version=3.2.11
 Name=Install System
 GenericName=System Installer
 Keywords=calamares;system;installer
 TryExec=calamares
-Exec=pkexec /usr/bin/calamares
+Exec=pkexec /usr/bin/calamares -d > /home/liveuser/install.log
 Comment=Calamares — System Installer
-Icon=/usr/share/endeavouros/EndeavourOS-icon.png
+Icon=/usr/share/endeavouros/EndeavourOS-icon-E.png
 Terminal=false
 StartupNotify=true
 Categories=Qt;System;
 X-AppStream-Ignore=true
-Name[de]=Install EndeavourOS
-Icon[de]=/usr/share/endeavouros/EndeavourOS-icon.png
-GenericName[de]=Installation des Betriebssystems
-Comment[de]=Install EndeavourOS to Harddisk
+Name[en]=Install EndeavourOS
+Icon[en]=/usr/share/endeavouros/EndeavourOS-icon.png
+GenericName[en]=Installation des Betriebssystems
+Comment[en]=Install EndeavourOS to Harddisk
 X-XFCE-Source=file:///usr/share/applications/calamares.desktop
 Path=
