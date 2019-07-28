@@ -20,7 +20,7 @@ EndeavourOS_Partition_and_Install() {
   yad --plug="$handle" --tabnum="$tabnum" --form \
       --title="$FUNCNAME" \
       --columns=1 \
-      --field='Create Partitions!'"/usr/share/icons/hicolor/48x48/apps/gparted.png"'!'"sudo gparted":fbtn    'sudo gparted' \
+      --field='Create Partitions!'"/usr/share/icons/hicolor/48x48/apps/gparted.png"'!'"sudo /usr/bin/partitionmanager":fbtn    'sudo /usr/bin/partitionmanager' \
       --field='Install EndeavourOS to disk!'"/usr/share/endeavouros/EndeavourOS-icon.png"'!'"sudo /usr/bin/calamares":fbtn    'sudo /usr/bin/calamares' \
       &> /dev/null &
       
