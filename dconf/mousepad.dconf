@@ -1,6 +1,6 @@
 [org/xfce/mousepad/preferences/view]
 auto-indent=false
-color-scheme='none'
+color-scheme='Kate'
 font-name='Monospace'
 highlight-current-line=true
 indent-on-tab=true
