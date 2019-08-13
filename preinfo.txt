@@ -1,3 +1,38 @@
+### STARTS NEW TEXT SUGGESTION
+
+An Installation on an empty device with no other OS installed and automatic partition or a simple manual one will work.
+
+Issues with the current calamares offline installer: 
+
+* on the manual partition: do not use swap with hibernate (it will result in not having a swap)
+  If you want that take swap without hibernating and configure it after install (howto needed)
+
+* on a manual partition on EFI systems: on creating the fat32 EFI partition there is no flag esp anymore choose boot instead (ignore any message at calamares complaining about missing esp flag and keep installing). 
+  Best practice will be to create partitions and flags with GParted before starting the installer and choosing the manual partition on the installer to use this partitions.
+
+* LUKS encryption has several issues.. they are not solved upstream at calamares development yet!
+  We do not recommend to use encryption currently!! 
+
+If you are an experienced user and still want to test LVM, LUKS, swap wih hibernation you can try following @2000 tutorial posted at EndeavourOS forum:
+https://forum.endeavouros.com/t/howto-gpt-uefi-install-with-full-disk-encryption-lvmonluks-with-a-separate-home-partition-and-working-hibernation-with-a-swapfile/985
+ 
+If you're planning to change the partition table from EFI to MBR or vice-versa then you'll need to use gparted before running the installer, otherwise calamares will just crash and you won't be able to install.
+If this happens just open gparted and create the new partition table, and then start calamares again.
+
+A warning to all of you want to install dual-boot with Windows:
+If you choose the same EFI/fat32 partition used by Windows DO NOT FORMAT IT! check that you do not choose to format this partition, as it will make Windows not booting anymore (this would erase boot entry for Windows!)
+
+Installer is creating a log file, you can use to help improving the installer, or if it fails for install to debug the issue.
+
+* to show the log copy paste this inside terminal:
+`mousepad /home/liveuser/endeavour-install.log` 
+
+* or pastebin it and post the url at the forum:
+`cat /home/liveuser/endeavour-install.log | curl -F 'f:1=<-' ix.io` 
+(this will upload the log to ix.io and give out a short url to the log file)
+
+### ENDS NEW TEXT SUGGESTION
+
 An Installation on an empty device with no other OS installed and automatic partition or a simple manual one will work.
 
 Issues with the current calamares offline installer: 
