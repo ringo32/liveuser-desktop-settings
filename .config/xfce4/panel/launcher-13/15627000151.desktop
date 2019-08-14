@@ -2,7 +2,7 @@
 Name=System Profiler and Benchmark
 Comment=Displays system information
 Exec=/usr/bin/hardinfo
-Icon=application-default-icon
+Icon=dialog-information
 Terminal=false
 Type=Application
 StartupNotify=true
