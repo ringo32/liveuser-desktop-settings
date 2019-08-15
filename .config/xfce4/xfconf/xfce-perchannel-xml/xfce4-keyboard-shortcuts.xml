@@ -23,15 +23,16 @@
     <property name="custom" type="empty">
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="dm-tool lock"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="dm-tool lock"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
+      <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
       <property name="Print" type="string" value="xfce4-screenshooter"/>
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
@@ -151,7 +152,7 @@
     </property>
   </property>
   <property name="providers" type="array">
-    <value type="string" value="commands"/>
     <value type="string" value="xfwm4"/>
+    <value type="string" value="commands"/>
   </property>
 </channel>
