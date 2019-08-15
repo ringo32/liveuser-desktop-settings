@@ -43,7 +43,7 @@ StartHere() {
       --title="install" \
       --tab="Preliminary information about the installation" \
       --tab="EndeavourOS Partition and Install" \
-      --button=gtk-quit:0
+      --button=yad-quit:0
 }
 
 StartHere
