@@ -14,12 +14,6 @@ To avoid problems, you can make a partition scheme by using Gparted before you s
 LUKS encryption
 At this moment we don’t recommend to use the option for encryption at all, due to an upstream bug with Calamares.
 
-There are some successful installs mentioned by members of the community by not using encryption on the separate Home partition.
-
-If you’re an experienced user you can follow the tutorial that our community member 2000 has made, but this method isn’t properly tested yet, so you can follow his instructions at your own risk:
-
-https://forum.endeavouros.com/t/howto-gpt-uefi-install-with-full-disk-encryption-lvmonluks-with-a-separate-home-partition-and-working-hibernation-with-a-swapfile/985
-
 Dual boot with Windows
 This is not a workaround but just an important tip:
 
