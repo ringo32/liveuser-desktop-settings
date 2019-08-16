@@ -11,7 +11,7 @@ Preliminary_information_about_the_installation() {
       --title="$FUNCNAME" \
       --columns=1 \
       --field='Read information offline!'"/usr/share/icons/Adwaita/48x48/legacy/accessories-text-editor.png"'!'"mousepad /home/liveuser/preinfo.txt":fbtn    'mousepad /home/liveuser/preinfo.txt' \
-      --field='Info on our Website!'"/usr/share/endeavouros/EndeavourOS-icon.png"'!'"firefox endeavouros.com/posts":fbtn    'firefox endeavouros.com/posts' \
+      --field='Info on our Website!'"/usr/share/endeavouros/EndeavourOS-icon.png"'!'"firefox endeavouros.com/posts":fbtn    'firefox https://endeavouros.com/docs/installation/calamares-offline-installer-tips/' \
       &> /dev/null &
 }
 EndeavourOS_Partition_and_Install() {
