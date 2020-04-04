@@ -35,13 +35,13 @@
         <value type="int" value="14"/>
         <value type="int" value="21"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
-      <property name="background-rgba" type="array">
-        <value type="double" value="0.231000"/>
-        <value type="double" value="0.381878"/>
-        <value type="double" value="0.550000"/>
-        <value type="double" value="0.611486"/>
-      </property>
+     <property name="background-style" type="uint" value="1"/>
+       <property name="background-rgba" type="array">
+        <value type="double" value="0.027451"/>
+        <value type="double" value="0.000000"/>
+        <value type="double" value="0.301961"/>
+        <value type="double" value="0.526690"/>
+      </property>   
     </property>
   </property>
   <property name="plugins" type="empty">
