@@ -7,5 +7,6 @@
     <property name="logind-handle-power-key" type="bool" value="false"/>
     <property name="logind-handle-suspend-key" type="bool" value="false"/>
     <property name="logind-handle-hibernate-key" type="bool" value="false"/>
+    <property name="dpms-enabled" type="bool" value="false"/>
   </property>
 </channel>
