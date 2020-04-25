@@ -110,7 +110,7 @@
       <property name="items" type="array">
         <value type="string" value="15658607778.desktop"/>
       </property>
-     <property name="plugin-4" type="string" value="launcher">
+     <property name="plugin-23" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="eos-log-tool.desktop"/>
       </property>
