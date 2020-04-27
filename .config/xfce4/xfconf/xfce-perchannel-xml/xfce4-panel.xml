@@ -16,6 +16,7 @@
         <value type="int" value="1"/>
         <value type="int" value="22"/>
         <value type="int" value="7"/>
+        <value type="int" value="4"/>
         <value type="int" value="16"/>
         <value type="int" value="15"/>
         <value type="int" value="2"/>
@@ -35,13 +36,13 @@
         <value type="int" value="14"/>
         <value type="int" value="21"/>
       </property>
-     <property name="background-style" type="uint" value="1"/>
-       <property name="background-rgba" type="array">
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
         <value type="double" value="0.027451"/>
         <value type="double" value="0.000000"/>
         <value type="double" value="0.301961"/>
         <value type="double" value="0.526690"/>
-      </property>   
+      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -134,5 +135,10 @@
       <property name="display-name" type="uint" value="1"/>
     </property>
     <property name="plugin-24" type="string" value="screenshooter"/>
+    <property name="plugin-4" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15878240211.desktop"/>
+      </property>
+    </property>
   </property>
 </channel>
