@@ -1,1 +1,1 @@
-# add package names available from repositories (not from AUR) one packagename per line:
+# add package names available from repositories (not from AUR) one package-name per line:
